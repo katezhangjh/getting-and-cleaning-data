@@ -98,24 +98,22 @@ The output has 68 variables:
 - 67:fBodyBodyGyroJerkMag-mean()
 - 68:fBodyBodyGyroJerkMag-std
 
-variable of 1 & 2
-1-activity:WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-2-subject:a group of 30 volunteers within an age bracket of 19-48 years.
+###variable of 1 & 2
+- 1:activity:WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+- 2:subject:a group of 30 volunteers within an age bracket of 19-48 years.
 
-variable of 3 to 68
-first character is t: time domain signal statistics, t stands for time
-first character is f: frequency domain signal statistics, f stands for frequency.
-
-
-variable has BodyAcc: body accelerate signals
-variable has GravityAcc: gravity acceleration signals
-variable has BodyAccJerk: body liner acceleration Jerk signals
-variable has BodyGyro: body gyroscope signals
-variable has BodyGyroJerk: body angular velocity signals
-variable has Mag: magnitude by the Euclidean norm
-variable has mean: mean of signals
-variable has st: standard deviation
-variable has XYZ: X,Y,Z directions
+###variable of 3 to 68
+- first character is t: time domain signal statistics, t stands for time
+- first character is f: frequency domain signal statistics, f stands for frequency.
+- variable has BodyAcc: body accelerate signals
+- variable has GravityAcc: gravity acceleration signals
+- variable has BodyAccJerk: body liner acceleration Jerk signals
+- variable has BodyGyro: body gyroscope signals
+- variable has BodyGyroJerk: body angular velocity signals
+- variable has Mag: magnitude by the Euclidean norm
+- variable has mean: mean of signals
+- variable has std: standard deviation
+- variable has XYZ: X,Y,Z directions
 
 ##Original Data Reference
 Original data is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
